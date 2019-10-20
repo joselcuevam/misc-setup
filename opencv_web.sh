@@ -10,6 +10,7 @@ yes|sudo apt-get install python-pip
 yes|sudo apt install python
 yes|sudo apt install python-pip
 yes|pip install numpy scipy matplotlib scikit-learn jupyter
+yes|sudo apt-get install python-numpy python-scipy python-matplotlib 
 yes|pip install opencv-contrib-python
 yes|sudo apt-get install python3-pip
 python3 -m pip install jupyterhub
