@@ -2,6 +2,11 @@
 
 echo "starting"
 
+echo "allow ssh"
+sudo sed 's/#.*PasswordAuthentication/PasswordAuthentication/g' -i /etc/ssh/ssh_config
+sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/g' -i /etc/ssh/sshd_config
+sudo service ssh restart
+
 yes|sudo apt-get install software-properties-common
 yes|sudo apt-add-repository universe
 yes|sudo apt-get update
