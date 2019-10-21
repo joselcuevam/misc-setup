@@ -17,8 +17,10 @@ yes|sudo apt install python-pip
 yes|pip install numpy scipy matplotlib scikit-learn jupyter
 yes|sudo apt-get install python-numpy python-scipy python-matplotlib 
 yes|pip install opencv-contrib-python
-yes|sudo apt-get install python3-pip
-python3 -m pip install jupyterhub
+yes|sudo apt-get install python-opencv
+
+#yes|sudo apt-get install python3-pip
+#python3 -m pip install jupyterhub
 jupyterhub --generate-config
 
 echo "install in sudo to get port 80"
