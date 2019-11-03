@@ -25,3 +25,4 @@ jupyter notebook --generate-config
 #jupyterhub --generate-config
 
 echo "install in sudo to get port 80"
+#sudo jupyter notebook --no-browser --port 80 --allow-root
