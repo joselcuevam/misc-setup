@@ -8,6 +8,9 @@ sudo sed 's/PasswordAuthentication no/PasswordAuthentication yes/g' -i /etc/ssh/
 sudo service ssh restart
 
 yes|sudo apt-get install software-properties-common
+yes|sudo apt-get install nano
+yes|sudo apt-get install tmux
+yes|sudo apt-get install git
 yes|sudo apt-add-repository universe
 yes|sudo apt-get update
 yes|sudo apt-get install python-pip
